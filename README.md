@@ -1,23 +1,19 @@
 # Topoo Chat
 
-Open-core module of **Topoo**.
+Topoo Chat provides reusable chat interaction primitives for agent-first applications.
 
-## Positioning
-This repository is a public, reusable module.
+## Scope
+- conversation timeline rendering
+- user/agent message UI patterns
+- command input surface and interaction states
+- local mock adapter for development
 
-The integrated runtime remains in private repo: [`viosson-d/topoo`](https://github.com/viosson-d/topoo).
-
-## Open vs Closed Boundary
-Open in this repo:
-- chat interaction primitives
-- collaboration surface APIs
-- local mock runtime examples
-
-Closed in private `topoo`:
-- multi-tenant user/account system
-- permission policy and org governance runtime
-- billing/subscription logic
-- production orchestration and private connectors
+## Development
+```bash
+# clone
+# install dependencies
+# run local dev
+```
 
 ## Status
-Scaffold repository created for phased public release.
+Early-stage module. APIs may change.
